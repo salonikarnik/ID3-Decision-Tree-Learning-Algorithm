@@ -1,5 +1,4 @@
 Name: Saloni Karnik
-Net id: suk140030
 
 Package: rpart
 
