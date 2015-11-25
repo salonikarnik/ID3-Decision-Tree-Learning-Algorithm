@@ -1,0 +1,7 @@
+args <- commandArgs(TRUE)
+training.set.path <- toString(args[1])
+training.set = read.csv(training.set.path)
+test.set.path <- toString(args[2])
+test.set = read.csv(test.set.path)
+source("Assignment2.R")
+DecisionTreeModel(training.set, test.set)
